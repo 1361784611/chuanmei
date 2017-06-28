@@ -1,0 +1,91 @@
+
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left, lightgreen, lightcyan,lightskyblue,lightpink, lightgoldenrodyellow);
+}
+.articleBox {
+    padding: 0 20px;
+    width: 760px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+.headerBox {
+    border-bottom: 1px dashed #999;
+}
+
+.headerBox h1 {
+    line-heightht: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.headerBox h2 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+}
+
+.mainBox {
+
+}
+
+.mainBox h3 {
+    font-size: 16px;
+    color: green;
+    line-height: 50px;
+}
+
+.mainBox p {
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.mainBox p em {
+    font-weight: bold;
+    font-style: normal;
+    color:purple;
+}
+
+.figureBox1 {
+    margin: 10px 20px 0 0;
+    width: 300px;
+    float: left;
+}
+
+.figureBox1 img {
+    width: 100%;
+}
+
+
+.figureBox2 {
+    float: right;
+    margin: 10px 0 0 20px;
+}
+@media all and (max-width:800px ){
+    .articleBox {
+        padding:0 5px;
+        width:auto;
+    }
+}
+@media all and (max-width: 480px){
+    .figureBox1,.figureBox2{
+        float:none;
+        margin:10px auto;
+    }
+}
+@media all and (max-width: 300px){
+    .figureBox1,.figureBox2{
+        width:100%
+    }
+}
+.headerBox h1,.headerBox h2{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}
+
+
+
+

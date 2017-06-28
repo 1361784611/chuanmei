@@ -1,0 +1,100 @@
+
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top right, lightgreen, lightgoldenrodyellow);
+}
+
+.box1 {
+    padding: 0 20px;
+    width: 760px;
+    /*height: auto; !*高度自动：内容有多高撑开多高(可以不用写，默认值就是AUTO)*!*/
+    background-color: rgba(248, 203, 202, 0.5);
+    margin: 0 auto; /*左右的MARGIN是AUTO：相当于距离左右两边间距一样(在容器水平居中的位置)*/
+}
+
+.headerBox{
+
+}
+
+.headerBox h1 {
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.headerBox  h2 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: orange;
+    font-weight: normal;
+}
+
+.box2{
+
+}
+.zp1   {
+
+    margin: 10px 20px 0 0;
+    width: 300px;
+    float: left;
+}
+.zp1  img {
+    width:100%
+}
+
+.zp2{
+    margin: 10px  0 0 20px;
+    width: 300px;
+    float: right;
+}
+
+.box2  p em {
+    font-weight: bold;
+    font-style: normal;
+    color:maroon;
+    font-size: 18px;
+}
+.box2 p{
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 35px;
+}
+
+
+ figcaption {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+
+@media all and (max-width: 800px) {
+  .box1 {
+      padding:0 5px;
+      width:auto;
+  }
+}
+ @media all and (max-width: 480px){
+     .zp1, .zp2{
+         float:none;
+         margin: 10px auto;
+     }
+
+    .headerBox h1, .headerBox h2{
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         overflow: hidden;
+     }
+ }
+@media all and (max-width: 300px){
+    .zp1, .zp2{
+        width:100%;
+    }
+    figcaption{
+        display: none;
+    }
+}

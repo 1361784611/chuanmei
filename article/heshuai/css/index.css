@@ -1,0 +1,135 @@
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left, lightblue, lightcoral, lightpink, lightsalmon, lightgreen);
+}
+
+.articlebox {
+    padding: 0 20px;
+    width: 760px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.headerbox {
+    border-bottom: 1px dashed #999;
+}
+
+.headerbox h1 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 22px;;
+}
+
+.headerbox h3 {
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;;
+}
+
+.mainbox {
+
+}
+
+.mainbox p {
+    font-size: 16px;
+    line-height: 30px;
+    text-indent: 2em;
+}
+
+.mainbox h2 {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+}
+
+.mainbox h3 {
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+}
+
+.figurebox1 {
+    margin: 10px auto;
+    width: 500px;
+    /*float: life;*/
+}
+
+.figurebox1 img{
+    width: 100%;
+}
+
+.figurebox1 figcaption {
+    font-size: 14px;
+    color: #444;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.figurebox2 {
+    margin: 10px auto;
+    width: 500px;
+   /*float: right;*/
+}
+.figurebox2 img{
+    width: 100%;
+}
+.figurebox2 figcaption {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    line-height: 20px;
+}
+@media all and (max-width:760px) {
+    .articlebox {
+        padding: 0 5px;
+        width: auto;
+    }
+}
+@media all and (max-width: 530px ){
+    .figurebox1, .figurebox2 {
+        margin: 5px auto;
+        width: auto;
+        /*float: life;*/
+    }
+}
+@media all and (max-width: 420px){
+    .headerbox h1,.headerbox h3{
+        text-overflow: ellipsis;/*超出部分进行裁切，以省略*/
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+@media all and (max-width: 480px) {
+    .articlebox p {
+        font-size: 14px;
+    }
+    .articlebox h1{
+        font-size: 20px;
+    }
+    .articlebox h2{
+        font-size: 18px;
+    }
+    .articlebox h3{
+        font-size: 16px;
+    }
+    .figurebox1 figcaption {
+        font-size: 12px;
+    }
+}
+@media all and (max-width: 300px) {
+    .articlebox p {
+        font-size: 12px;
+    }
+    .articlebox h1{
+        font-size: 18px;
+    }
+    .articlebox h2{
+        font-size: 16px;
+    }
+    .articlebox h3{
+        font-size: 14px;
+    }
+    .figurebox1 figcaption {
+        display: none;
+    }
+}

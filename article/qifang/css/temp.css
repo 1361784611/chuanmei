@@ -1,0 +1,73 @@
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left,pink,peachpuff,papayawhip,coral);
+}
+
+.articleBox {
+    padding: 10px 20px;
+    width: 760px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.headerBox h1{
+    font-size: 22px;
+    border-bottom: 1px dashed #999;
+}
+
+.mainBox div p{
+    text-indent: 2em;
+}
+.mainBox h2{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.imgBox{
+    width: 100%;
+}
+.figureBox1 img {
+    width: 50%; /*IMG的默认宽度是图片的真实宽度，我们需要设置一下，如果只设置宽度，浏览器会根据宽高的比例，自动设置高度*/
+}
+
+.figureBox1 figcaption p{
+    text-indent: 2em;
+    font-size: 12px;
+    color: #555;
+    line-height: 20px;
+}
+
+.figureBox1 figcaption {
+    text-indent: 2em;
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+
+@media all and (max-width:800px ){
+    .articleBox {
+        padding:0 5px;
+        width:auto;
+    }
+}
+@media all and (max-width: 480px){
+    .figureBox1,.imgBox{
+        float:none;
+        margin:10px auto;
+    }
+}
+@media all and (max-width: 300px){
+    .figureBox1,.imgBox{
+        width:100%
+    }
+    .figurecaption p{
+        display: none;
+    }
+}
+.headerBox h1,.imgBox{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    overflow:hidden;
+}

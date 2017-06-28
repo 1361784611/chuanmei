@@ -1,0 +1,9 @@
+﻿秦皇岛最著名的8个旅游景点出自http://www.gkstk.com/article/wk-78500001512432.html
+
+
+https://zhidao.baidu.com/question/2205023226880053428.html
+
+
+问题 ： 1.为什么我的文章 不是居中 
+	2.为什么不能设置每段问题都在相应图片的左右边。是否因为图片太大
+	3.figure 中 width为什么不能改变图片的大小
