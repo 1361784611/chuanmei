@@ -1,0 +1,184 @@
+html, body {
+    width: 100%;
+    /*background: -webkit-linear-gradient(top left, #44dee6, lightcoral, #beff2e, lightsalmon, lightgreen);*/
+    background: url("../img/7.gif") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.articleBox {
+    padding: 0 20px;
+    width: 760px;
+    background-color: rgba(255, 156, 249, 0.5);
+    margin: 0 auto;
+}
+
+.mainBox {
+
+}
+
+.mainBox {
+    border-bottom: 1px dashed #999;
+}
+
+.mainBox h1 {
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: deepskyblue;
+    font-weight: bold;
+}
+
+.mainBox h2 {
+    line-height: 50px;
+    text-align: left;
+    font-size: 25px;
+    color: hotpink;
+    font-weight: bold;
+}
+
+.mainBox h3 {
+    font-size: 20px;
+    color: mediumpurple;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.mainBox p {
+    line-height: 35px;
+    font-size: 15px;
+    text-indent: 2em;
+}
+
+.mainBox p em {
+    font-weight: bold;
+    font-style: normal;
+    color: deepskyblue;
+}
+.mainBox ul em {
+    font-weight: bold;
+    font-style: normal;
+    color: #ff9148;
+}
+
+.figureBox1 {
+    margin: 10px 20px 0 0;
+    width: 300px;
+    float: left;
+}
+
+.figureBox1 img {
+    width: 100%;
+}
+
+.figureBox2 {
+    margin: 0 0 10px 20px;
+    width: 300px;
+    float: right;
+}
+
+.figureBox2 img {
+    width: 100%;
+}
+
+.figureBox3 {
+    margin: 10px 20px 0 0;
+    width: 500px;
+    float: left;
+}
+
+.figureBox3 img {
+    width: 100%;
+}
+
+.figureBox4 {
+    margin: 0 0 10px 20px;
+    width: 400px;
+    float: right;
+}
+
+.figureBox4 img {
+    width: 100%;
+}
+
+.figureBox5 {
+    margin: 0 0 10px 20px;
+    width: 300px;
+    float: right;
+}
+
+.figureBox5 img {
+    width: 100%;
+}
+
+.figureBox6 {
+    margin: 0 0 10px 20px;
+    width: 400px;
+    float: right;
+}
+
+.figureBox6 img {
+    width: 100%;
+}
+
+.figureBox7 {
+    margin: 10px auto;
+    width: 300px;
+
+}
+
+.figureBox7 img {
+    width: 100%;
+}
+
+.figureBox8 {
+    margin: 10px 20px 0 0;
+    width: 250px;
+    float: left;
+}
+
+.figureBox8 img {
+    width: 100%;
+}
+
+@media all and (max-width: 800px) {
+    .articleBox {
+        padding: 0 5px;
+        width: auto;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .figureBox1, .figureBox2, .figureBox3, .figureBox4, .figureBox5, .figureBox6, .figureBox7, .figureBox8 {
+        float: none;
+        margin: 10px auto;
+    }
+}
+
+/*
+aside{
+    display :none;
+}*/
+@media all and (max-width: 300px) {
+    .figureBox1, .figureBox7, .figureBox5, .figureBox2 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .figureBox3 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .figureBox6, .figureBox4 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 250px) {
+    .figureBox8 {
+        width: 100%;
+    }
+}

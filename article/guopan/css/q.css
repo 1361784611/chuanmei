@@ -1,0 +1,107 @@
+html, body {
+    width: 100%;
+    /*background: -webkit-linear-gradient(top left, lightblue, lightskyblue, lightcyan,lightcyan);*/
+    background: url("../img/2q.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.articlebox {
+    padding: 5px 50px;
+    width: 760px;
+    background-color: rgba(255,255,255,0.65);
+    margin: 10px auto;
+}
+.headerbox{
+    border-bottom: 1px dashed #999;
+}
+.headerbox h1{
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.mainbox h2 {
+    line-height: 25px;
+    text-align: center;
+    font-size: 20px;
+    color:darkslateblue;
+    font-weight: bold;
+}
+.mainbox p {
+
+    line-height: 30px;
+    font-size: 18px;
+    text-indent: 2em;
+}
+.figurebox1 {
+    margin: 10px 30px 0 0;
+    width: 300px;
+    float: left;
+}
+.figurebox1 img{
+    width:100%
+}
+.figurebox1 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+}
+.figurebox2 {
+    margin: 10px 30px 0 0;
+    width: 300px;
+    float: left;
+}
+.figurebox2 img{
+    width:100%
+}
+.figurebox2 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+}
+.figurebox3 {
+    margin: 10px 30px 0 0;
+    width: 300px;
+    float: left;
+}
+.figurebox3 img{
+    width:100%
+}
+.figurebox3 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: normal;
+    line-height: 20px;
+    text-align: center;
+}
+.mainbox p em{
+    color: #8f9eff;
+    font-style: normal;
+    font-size: 25px;
+}
+.mainbox p.pbox em{
+    color: #ff6577;
+    font-size: 15px;
+    font-style: normal;
+}
+@media all and (max-width: 800px) {
+    .articlebox{
+        padding: 0 5px;
+        width:auto;
+    }
+
+}
+@media all and (max-width: 480px){
+    .figurebox1,.figurebox2,.figurebox3{
+        float: none;
+        margin: 10px auto;
+    }
+}
+@media all and (max-width: 300){
+    .figurebox1,.figurebox2,.figurebox3{
+        width: 100%;
+    }
+}

@@ -1,0 +1,149 @@
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left,lightcoral ,lightgreen, lightblue,lightgoldenrodyellow,lightpink);
+}
+
+.articlebox {
+    padding: 0 15px;
+    width: 770px;
+    background-color: rgba(27, 255, 112, 0.3);
+    margin: 0 auto;
+}
+
+.headerbox {
+    border-bottom: 3px solid #ffff00;
+}
+
+.headerbox h1 {
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: #5a0a85;
+    font-family: 华文隶书;
+}
+
+.headerbox h2 {
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: #2426f9;
+}
+
+.figurebox img {
+    width: 100%;
+}
+
+.figurebox figcaption {
+    font-size: 16px;
+    color: #216548;
+    font-family: 华文行楷;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.mainbox p {
+    line-height: 35px;
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.mainbox p em {
+    font-family: 楷体;
+    font-weight: bold;
+    color: #d5292f;
+}
+
+.figurebox1 {
+    margin: 10px 20px 0 0;
+    width: 220px;;
+    float: left;
+}
+
+.figurebox1 figcaption {
+    font-family: 华文隶书;
+    font-style: italic;
+    font-size: 14px;
+    color: #e72dbc;
+}
+
+.mainbox h2 {
+    font-family: 华文彩云;
+    font-size: 22px;
+    line-height: 50px;
+}
+
+.mainbox ul li {
+    font-size: 14px;
+    color: #ff3c13;
+}
+
+.mainbox h3 {
+    font-size: 20px;
+    font-family: 华文琥珀;
+    color: #64197a;
+}
+
+.figurebox2 {
+    margin: 10px 0 0 20px;
+    width: 250px;
+    float: right;
+}
+
+.figurebox2 figcaption {
+    font-family: 方正兰亭超细黑简体;
+    font-size: 14px;
+    font-style: italic;
+    color: #bec0bf;
+}
+
+.footerbox {
+    border-top: 3px dashed;
+    position: relative;
+}
+
+.footerbox h4 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 华文行楷;
+    font-size: 30px;
+    color: #ff1e54;
+}
+
+.footerbox img {
+    position: relative;
+    top: 5px;
+    left: 70px;
+    width: 55px;
+}
+
+@media all and (max-width: 800px){
+    .articlebox{
+        padding:0 3px;
+        width:auto;
+    }
+}
+
+@media all and (max-width: 480px) {
+.figurebox img,.figurebox1,.figurebox2{
+    float: none;
+    margin: 10px auto;
+}
+    .footerbox img{
+        display: none;
+    }
+}
+.headerbox h1,.headerbox h2{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+@media all and (max-width: 300px) {
+    .figurebox,.figurebox1,.figurebox2{
+        width:100%;
+    }
+    figcaption{
+        display: none;
+    }
+
+}
