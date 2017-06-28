@@ -1,0 +1,62 @@
+.articlebox{
+    width: 1250px;
+    padding: 0 25px;
+    margin: auto;
+    background-image: url("img/p6.jpg");
+}
+.headerbox h1{
+    line-height: 50px;
+    text-align: left;
+    font-size: 50px;
+    text-decoration: underline;
+    color: aqua;
+}
+.figurebox1 img{
+    width: 30%;
+    float: left;
+    margin: 0px 550px 10px 450px;
+}
+.figurebox2 img {
+    width: 40%;
+    float: left;
+    margin: 10px 0 0 20px;
+}
+.figurebox3 img{
+    float: right;
+    margin: 10px 0 0 20px;
+}
+.mainbox p{
+    line-height: 25px;
+    font-size: 15px;
+    text-indent: 2em;
+    color: aquamarine;
+}
+.mainbox p em {
+    font-weight: bold;
+    font-style: normal;
+    color: yellowgreen;
+}
+.figurebox1 figcaption {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+    display: block;
+}
+.figurebox2 figcaption{
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+    display: block;
+}
+.figurebox3 figcaption{
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+    display: block;}
+.mainbox img{
+    float: right;
+    margin: 10px 0 0 20px;
+}
