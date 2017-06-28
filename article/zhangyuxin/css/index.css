@@ -1,0 +1,110 @@
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left, lightgoldenrodyellow, lightpink, lightcoral, lightseagreen);
+}
+
+.articlebox {
+    width: 800px;
+    padding: 0 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.headerbox {
+    border-bottom: 1px dashed #999;
+}
+
+.headerbox h1 {
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainbox h2 {
+    ine-height: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+.mainbox p {
+    line-height: 40px;
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.mainbox em {
+    font-weight: bold;
+    font-style: normal;
+    color: orange;
+}
+
+.figurebox1 {
+    margin: 10px 20px 0 0;
+    width: 200px;
+    float: left;
+}
+
+.figurebox1 img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.mainbox h4 {
+    ine-height: 5 10px;
+    font-size: 20px;
+    color: blue;
+}
+
+.mainbox h5 {
+    ine-height: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+.mainbox h6 {
+    ine-height: 50px;
+    font-size: 20px;
+    color: blue;
+}
+
+.mainbox h3 {
+    ine-height: 50px;
+   font-size: 20px;
+    color: green;
+}
+.figurebox2{margin: 10px 20px 0 0;
+    width: 200px;
+    float: right;}
+@media all and (max-width:800px){
+    .articlebox{
+        padding:0 5px;
+        width:auto;
+    }
+}
+
+@media all and (max-width:480px){
+    .figurebox1 ,.figurebox2{
+        float:none;
+        margin:10px auto;
+    }
+
+}
+.headerbox h1{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+@media all and (max-width:300px){
+    .figurebox1,.figurebox2{
+        width:100%;
+    }
+    figcaption{
+        display:none;
+    }
+}

@@ -1,0 +1,125 @@
+
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top left, lightcoral, lightpink, lightsalmon, lightgreen, lightblue, lightgoldenrodyellow, lightblue);
+}
+
+.articlebox {
+    padding: 5px 10px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+
+.headerbox {
+
+}
+
+.headerbox h1 {
+
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 楷体;
+    font-style: italic;
+    color: blue;
+}
+
+.headerbox h2 {
+    border-bottom: 1px dashed #999;
+    text-align: center;
+    font-size: 22px;
+    font-family: 楷体;
+    font-style: italic;
+    color: orangered;
+}
+
+.mainbox {
+
+}
+
+.mainbox p {
+    line-height: 28px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.mainbox p em {
+    font-weight: bold;
+    font-style: normal;
+    color: brown;
+}
+
+.figurebox1 {
+    margin: 15px 15px 5px 5px;
+    width: 260px;
+    float: left;
+}
+
+.figurebox1 img {
+    width: 100%
+}
+
+.figurebox2 {
+    margin: 15px 15px 5px 5px;
+    width: 260px;
+    float: right;
+}
+
+.figurebox2 img {
+    width: 100%
+}
+
+.figurebox3 {
+    margin: 15px 15px 5px 5px;
+    width: 260px;
+    float: left;
+}
+
+.figurebox3 img {
+    width: 100%
+}
+
+.figurebox4 {
+    margin: 15px 15px 5px 5px;
+    width: 260px;
+    float: right;
+}
+
+.figurebox4 img {
+    width: 100%
+}
+@media all and (max-width: 800px){
+    .articlebox{
+        padding:0 5px;
+        width:auto;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .figurebox1, .figurebox2, .figurebox3, .figurebox4 {
+        float: none;
+        margin: 10px auto;
+    }
+
+    .headerbox {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+}
+
+@media all and (max-width: 300px) {
+    .figurebox1, .figurebox2, .figurebox3, .figurebox4 {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
