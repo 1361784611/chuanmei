@@ -1,0 +1,121 @@
+html,body{
+    width: 100%;
+    background: -webkit-linear-gradient(top left,lightgoldenrodyellow,lightpink,lightcoral,lightsalmon);
+}
+.articleBox{
+    padding: 0 20px;
+    width:760px ;
+    background-color: rgba(255,255,255,0.5);
+    margin: 0 auto;
+}
+.headerBox{
+    border-bottom: 1px dashed #999;
+}
+.headerBox h1{
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Lao UI";
+}
+.headerBox h2{
+    line-height: 50px;
+    text-align: center;
+    font-size: 27px;
+    font-family: "Lao UI";
+}
+.mainBox{
+
+}
+.mainBox h3{
+    line-height: 50px;
+    font-size: 25px;
+}
+.figureBox1{
+    margin: 10px 20px 0 0;
+    width: 300;
+    float: left;
+}
+.figureBox1 img{
+    width: 100%;
+}
+.pBox1{
+   font-family: "Sakkal Majalla";
+    text-indent: 2em;
+    font-size: 15px;
+}
+
+.pBox2 em{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.pBox4{
+    font-size: 25px;
+    line-height: 50px;
+}
+.pBox5{
+    line-height: 50px;
+    font-size: 20px;
+}
+.pBox13{
+    font-size: 25px;
+    line-height: 50px;
+}
+.figureBox2{
+    margin: 10px 0 0 20px;
+    width: 300;
+    float: right;
+}
+.figureBox2 img{
+    width: 100%;
+}
+.figureBox2 figcaption{
+    font-style: italic;
+    font-size: 15px;
+    color: indianred;
+    text-align: center;
+}
+.pBox14 em{
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.figureBox3{
+    margin: 10px 20px 0 0 ;
+    width: 300;
+    float: left;
+}
+.figureBox3 img{
+    width: 100%;
+}
+.figureBox3 figcaption{
+    font-style: italic;
+    font-size: 15px;
+    color: indianred;
+    text-align: center;
+}
+@media all and (max-width: 800px){
+   .articleBox{
+       padding: 0 5px;
+       width: auto;
+   }
+}@media all and (max-width: 480px){
+    .figureBox2,.figureBox3{
+        float: none;
+        margin: 10px auto;
+    }
+    .headerBox h1,.headerBox h2{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .figureBox2,.figureBox3{
+        width: 100%;
+    }
+    figcaption{
+        display: none;
+    }
+}

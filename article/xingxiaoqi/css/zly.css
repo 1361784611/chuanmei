@@ -1,0 +1,134 @@
+html, body {
+    width: 100%;
+    background: -webkit-linear-gradient(top right, lightskyblue, lightpink, plum,lightskyblue);
+}
+
+.articlebox {
+    padding: 5px 50px;
+    width: 760px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+}
+
+.headerbox {
+    border-bottom: 1px dashed #999;
+}
+
+.headerbox h1 {
+    line-height: 60px;
+    text-align: center;
+    font-size: 23px;
+}
+
+.mainbox h2 {
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.mainbox h3 {
+    line-height: 30px;
+    text-align: right;
+    font-size: 20px;
+    color: plum;
+    font-weight: bold;
+    font-family: 楷体;
+}
+
+.mainbox p {
+
+    line-height: 35px;
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.mainbox p em {
+    font-weight: bold;
+    font-style: normal;
+    color: royalblue;
+}
+
+.mainbox p.p1 em {
+    font-family: 仿宋;
+    font-style: normal;
+    color: aqua;
+    font-size: 18px;
+}
+
+.figurebox1 {
+    margin: 10px 30px 0 0;
+    width: 300px;
+    float: left;
+}
+
+.figurebox1 img {
+    width: 100%
+}
+
+.figurebox1 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.figurebox2 {
+    float: right;
+    margin: 10px 0 0 20px;
+    width: 300px;
+}
+
+.figurebox2 img {
+    width: 100%
+}
+
+.figurebox2 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.figurebox3 {
+    float: right;
+    margin: 10px 0 0 20px;
+    width: 300px;
+}
+
+.figurebox3 img {
+    width: 100%
+}
+
+.figurebox3 figcaption {
+    font-size: 15px;
+    color: #555;
+    font-style: italic;
+    line-height: 20px;
+}
+@media all and (max-width: 800px){
+    .articlebox{
+        padding: 0 8px;
+        width:auto;
+    }
+}
+@media all and (max-width: 480px){
+.figurebox2,.figurebox3,.figurebox1{
+    float:none;
+    margin:10px auto;
+}
+    .headerbox h1,.mainbox h2{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+@media all and (max-width: 300px){
+    .figurebox1,.figurebox2,.figurebox3{
+        width:100%;
+    }
+    figcaption{
+        display: none;
+    }
+}
