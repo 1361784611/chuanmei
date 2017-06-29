@@ -1,0 +1,91 @@
+html,body{
+    width:100%;
+    background:-webkit-linear-gradient(top left,lightskyblue ,lightpink, lightyellow ,lightseagreen)
+}
+.articleBox{
+    padding:0 20px;
+    width: 760px;
+    background-color: rgba(255,255,255,0.5);
+    margin:0 auto;
+}
+.headerBox{
+
+}
+.headerBox h1{
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 华文隶书;
+}
+.headerBox h2{
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 华文隶书;
+}
+.mainBox{
+
+}
+.mainBox h3{
+    font-size: 16px;
+    color: green;
+    line-height: 50px;
+    font-weight: normal;
+    text-indent: 2em;
+}
+.mainBox p{line-height: 35px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+.mainBox p em{
+    font-weight: bold;
+    font-style: normal;
+    color:orange;
+}
+.figureBox1{
+    width: 300px;
+    float: right;
+    margin: 10px 0 0 20px;
+}
+.figureBox1 img{
+    width:100%;
+}
+.figureBox1 figcaption{
+    font-size: 12px;
+    color: #888;
+    font-style: italic;
+    line-height: 20px;
+}
+.figureBox2{
+    float: left;
+    margin:10px 20px 0 0;
+}
+@media all and (max-width: 800px){
+    .articleBox{
+        padding:0 5px;
+        width:auto;
+    }
+}
+@media all and (max-width: 430px){
+    .figureBox1,.figureBox2{
+        float: none;
+        margin:10px auto;
+    }
+}
+@media all and (max-width:310px){
+    .figureBox1,.figureBox2{
+        width:100%;
+    }
+    figcaption{
+        display: none;
+    }
+}
+
+@media all and (max-width: 280px){
+.mainBox h3{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+}

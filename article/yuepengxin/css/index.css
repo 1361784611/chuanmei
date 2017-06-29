@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: #ffff00;
+    color: black;
+    font-size: 14px;
+    font-family: microsoft YaHei;
+
+}
+article{
+    width: 760px;
+    padding: 20px;
+    margin: 0 auto;
+    background:#fff;
+}
+header h1{
+    line-height: 60px;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+}
+header h2{
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: aqua;
+    font-family: microsoft FangSong;
+}
+header {
+    border-bottom: 1px dashed #ddd;
+}
+header {
+    line-height: 30px;
+}
+main {
+    margin-top: 10px;
+}
+main p{
+    line-height: 30px;
+    text-indent: 2em;
+}
+main h3{
+    line-height: 40px;
+    font-size: 20px;
+}
+img {
+    width: 500px;
+}
+figure img{
+    width:50%;
+    margin: 10px 20px 0 0;
+}
+figcaption{
+    color: #b5b5b5;
+    font-style: italic;
+    font-size: 18px;
+
+}
+main h4{
+    line-height: 40px;
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+}
+p strong{
+    line-height: 35px;
+    font-size: 20px;
+    color: blueviolet;
+}
+figure strong {
+    line-height: 35px;
+    font-size: 20px;
+    color: brown;
+}
+figure p{
+    line-height: 30px;
+    font-size: 15px;
+    color: aquamarine;
+}
+main h5{
+    line-height: 40px;
+    font-size: 28px;
+    text-align: center;
+    color: black;
+}
+main h6{
+    line-height: 35px;
+    font-size: 19px;
+    text-align: left;
+    color: red;
+}
+@media all and (max-width: 800px){
+    article{
+       padding: 0 5px;
+        width: auto;
+
+    }
+}
+@media all and (max-width: 800px){
+
+    figure img{
+        width: 100%;
+    }
+}
+
+

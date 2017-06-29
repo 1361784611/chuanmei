@@ -1,0 +1,109 @@
+html, body {
+    width: 100%;
+    background-image: url("../img/bei.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.articleBox{
+    padding: 0 20px;
+    width: 760px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+}
+.headerBox {
+    border-bottom: 1px dashed rgba(41, 153, 22, 0.6);}
+.headerBox h1 {
+    line-height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: green;
+}
+.headerBox h2 {
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;}
+.mainBox{
+
+}
+.mainBox h3{
+    font-size: 16px;
+    color: grey;
+    line-height: 50px;
+    font-weight: bold;
+
+}
+.mainBox p {
+    line-height: 35px;
+    font-size: 14px;
+    text-indent: 2em;
+}
+
+.mainBox p em {
+    font-weight: bold;
+    font-style: normal;
+    color: cadetblue;
+}
+
+.figureBox1 {
+    margin: 10px 0 10px 20px;
+    width: 300px;
+    float: right;
+}
+
+.figureBox1 img {
+    width: 100%;
+}
+
+.figureBox1 figcaption {
+    font-size: 12px;
+    color: midnightblue;
+    font-style: italic;
+    line-height: 20px;
+}
+
+.figureBox2 {
+    float: left;
+    margin: 10px 20px 10px 0px;
+    width:300px
+}
+.figureBox2 img {
+    width: 100%;
+}
+.figureBox3 {
+    float: right;
+    margin: 10px 0 10px 21px;
+    width:300px;
+}
+.figureBox3 img {
+    width: 100%;
+}
+
+@media all and (max-width: 800px) {
+    .articleBox {
+        padding: 0 5px;
+        width: auto;
+    }
+}
+@media all and (max-width: 480px){
+    .figureBox1,.figureBox2,.figureBox3{
+        float: none;
+        margin: 10px auto;
+    }
+    .headerBox h1,.headerBox h2{
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;    }
+}
+@media all and (max-width: 300px) {
+    .figureBox1, .figureBox2,.figureBox3{
+        width: 100%;
+    }
+
+    figcaption {
+        display: none;
+    }
+}
